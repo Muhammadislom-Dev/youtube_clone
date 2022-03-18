@@ -1,3 +1,4 @@
+import Section from '../../Components/Section/Section'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import './HomeContent.scss'
 
@@ -8,7 +9,7 @@ const HomeContent = () =>{
                 <Sidebar />
             </div>
             <div className="homecontent-right">
-
+                <Section />
             </div>
         </div>
     )
