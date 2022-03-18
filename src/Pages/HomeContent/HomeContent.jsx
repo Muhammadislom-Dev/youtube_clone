@@ -1,4 +1,4 @@
-import Section from '../../Components/Section/Section'
+import BoxTop from '../../Components/BoxTop/BoxTop'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import './HomeContent.scss'
 
@@ -9,7 +9,7 @@ const HomeContent = () =>{
                 <Sidebar />
             </div>
             <div className="homecontent-right">
-                <Section />
+                <BoxTop />
             </div>
         </div>
     )
