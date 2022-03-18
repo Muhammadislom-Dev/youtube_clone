@@ -1,0 +1,82 @@
+.sidebar{
+    margin: 0px 15px;
+    // margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    height: 90vh;
+
+    &__links{
+        display: flex;
+        align-items: center;
+    }
+    &__link{
+        text-decoration: none;
+    }
+    &__name{
+        color: #222;
+        margin-left: 5px;
+        font-family: 'Hubballi', cursive;
+    }
+    &__youtube{
+        margin-left: 30px;
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        &-link{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+    }
+
+    &__item{
+        margin-bottom: -15px;
+    }
+    &__names{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #898989;
+        margin-left: 10px;
+    }
+
+    &-list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: 25px;
+    }
+
+    &-lists{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: 45px;
+    }
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:  #bb2d74;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d15c47;
+  }
