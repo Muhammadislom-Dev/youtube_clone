@@ -11,7 +11,7 @@ const ListVideos = ({ videos, onVideoSelect }) => {
      ));
 
      return (
-          <div>
+          <div className='section__pages'>
                {videoLists}
           </div>
      );

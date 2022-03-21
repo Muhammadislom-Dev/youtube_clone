@@ -4,6 +4,7 @@
     padding: 0;
     overflow-x: auto;
     height: 90vh;
+    width: 270px;
 
     &__links{
         display: flex;
@@ -34,7 +35,6 @@
             display: flex;
             align-items: center;
             text-decoration: none;
-            
         }
     }
 

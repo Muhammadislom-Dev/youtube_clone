@@ -7,8 +7,8 @@ const Video = ({ video: { id: {videoId}, snippet: { title, channelTitle, descrip
      
      return (
           <>
-               <div className="videoIframe">
-                    <iframe 
+               <div className="section-videoiframe">
+                    <iframe className='section-iframe'
                          frameBorder="0"
                          allowFullScreen
                          title="Video player"
@@ -16,9 +16,9 @@ const Video = ({ video: { id: {videoId}, snippet: { title, channelTitle, descrip
                     />
                </div>
                <div className="videoInfo">
-                    <h1 className="titleVideo">{title}</h1>
-                    <h3 className="channelTitle">{channelTitle}</h3>
-                    <p className="descriptionVideo">{description}</p>
+                    <p className="section-title">{title}</p>
+                    <p className="section-text">{channelTitle}</p>
+                    <p className="section-text">{description}</p>
                </div>
           </>
      );

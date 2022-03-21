@@ -1,5 +1,8 @@
 import './App.scss';
-import HomeContent from './Pages/HomeContent/HomeContent';
+import Sidebar from './Components/Sidebar/Sidebar';
+import {Switch, Route} from 'react-router'
+import Section from './cloneMain/Section/Section';
+
 
 
 function App() {
@@ -39,8 +42,40 @@ function App() {
    
 
     <div className="App">
-        <div>
-          <HomeContent />
+      <Sidebar />
+        <div className='App__content'>
+           <Switch>
+              <Route path="/trending">
+                /trending
+              </Route>
+              <Route path="/subscriptions">
+                /subscriptions
+              </Route>
+              <Route path="/library">
+                /library
+              </Route>
+              <Route path="/history">
+                /history
+              </Route>
+              <Route path="/watch">
+                /watch
+              </Route>
+              <Route path="/favourites">
+                /favourites
+              </Route>
+              <Route path="/likevideo">
+                /likevideo
+              </Route>
+              <Route path="/music">
+                /music
+              </Route>
+              <Route path="/games">
+                /games
+              </Route>
+              <Route path="/">
+                <Section />
+              </Route>
+           </Switch>
         </div>
         <div></div>
     </div>

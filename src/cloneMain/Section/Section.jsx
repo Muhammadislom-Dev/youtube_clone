@@ -13,7 +13,7 @@ const Section = () =>{
       const {data: { items: videos } } = await URL.get("search", {
         params: {
           part: "snippet",
-          maxResults: 30,
+          maxResults: 36,
           key: "AIzaSyC4HtSwSzpwlqoHnERzQLnCX5oRrljl1Uk",
           q: searchTerm
         }
@@ -33,7 +33,7 @@ const Section = () =>{
         <div className="videoSec">
           <Video video={selectedVideos} />
         </div>
-        <div className="videoLists">
+        <div className="section__page">
           <ListVideos videos={videos} onVideoSelect={setSelectedVideos} />
         </div>
       </div>

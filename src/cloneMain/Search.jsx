@@ -29,10 +29,10 @@ const Search = ({ onSubmit }) => {
                     /> 
 
                     <div className="header-page">
-                         <img src={Phone} alt="" className="header-img" />
-                         <img src={dot} alt="" className="header-img" />
-                         <img src={UI} alt="" className="header-img" />    
-                         <img src={Persons} alt="" className="header-img" />
+                         <a href="#" className="header-link"><img src={Phone} alt="" className="header-img" /></a>
+                         <a href="#" className="header-link"><img src={dot} alt="" className="header-img" /></a>
+                         <a href="#" className="header-link"><img src={UI} alt="" className="header-img" /></a>    
+                         <a href="#" className="header-link"><img src={Persons} alt="" className="header-img" /></a>
                     </div>
                </div>
           </>

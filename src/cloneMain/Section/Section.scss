@@ -3,10 +3,50 @@
     overflow-y:auto;
     height: 90vh;
 
+    &-title{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 34px;
+        color: #19202C;
+        width: 600px;
+        font-family: Mulish;
+    }
+
+    &-text{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    &-iframe{
+        width: 900px;
+        height: 400px;
+    }
+
+    &-box{
+        width: 320px;
+    }
+
+    &__pages{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
 }
 
  .header{
+     display: flex;
+     justify-content: space-between;
+
+     &-page{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         width: 300px;
+         margin: 0 20px;
+     }
 
 &__input{
    width: 500px;
@@ -20,7 +60,15 @@
     &::placeholder{
         padding: 10px;
     }
-    
+  }
+
+  &__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    opacity: 0.6;
+  }
 
 }
-}
+
