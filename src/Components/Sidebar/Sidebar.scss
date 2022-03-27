@@ -102,6 +102,44 @@
         margin-top: 45px;
     }
 
+    &-bottom {
+        padding-bottom: 30px;
+
+        &__title {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            padding-left: 32px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            color: #17171e;
+        }
+
+        &__links {
+            margin: 0;
+            padding: 0;
+            padding-left: 32px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+
+            &-text {
+                margin: 0;
+                padding: 0;
+                margin-left: 10px;
+                padding: 10px 0 10px 10px;
+                color: #17171e;
+            }
+
+            &:hover {
+                background-color: rgba(202, 195, 195, 0.2);
+            }
+        }
+    }    
+
 
 }
 

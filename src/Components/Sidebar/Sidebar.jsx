@@ -143,7 +143,7 @@ const Sidebar = () =>{
                     activeClassName="sidebar__menues-active"
                     to="/history"
                 >
-                    <NotificationIcon />
+                    <Menu />
                     <p className="sidebar__menues-text ">History</p>
                 </NavLink>
                 <NavLink
@@ -187,7 +187,7 @@ const Sidebar = () =>{
                     <p className="sidebar__menues-text">Games</p>
                 </NavLink>
               </div>
-
+{/* 
               <ul className="sidebar-lists">
                   <li className="sidebar__item">
                       <NavLink to="/person" className='sidebar__list-link'>
@@ -225,7 +225,67 @@ const Sidebar = () =>{
                         <p className='sidebar__names'>Leah Berry</p>
                       </NavLink>
                   </li>
-              </ul>
+              </ul> */}
+
+            <div className="sidebar-bottom">
+                <h2 className="sidebar-bottom__title">Subscriptions</h2>
+                <Link className="sidebar-bottom__links" to="/channel">
+                    <img
+                        src={Person}
+                        alt="subscription users"
+                        width={26}
+                        height={26}
+                    />
+                    <p className="sidebar-bottom__links-text">
+                        Gussie Singleton
+                    </p>
+                </Link>
+                <Link className="sidebar-bottom__links" to="/channel">
+                    <img
+                        src={Person}
+                        alt="subscription users"
+                        width={26}
+                        height={26}
+                    />
+                    <p className="sidebar-bottom__links-text">Nore Francis</p>
+                </Link>
+                <Link className="sidebar-bottom__links" to="/channel">
+                    <img
+                        src={Person}
+                        alt="subscription users"
+                        width={26}
+                        height={26}
+                    />
+                    <p className="sidebar-bottom__links-text">Belle Briggs</p>
+                </Link>
+                <Link className="sidebar-bottom__links" to="/channel">
+                    <img
+                        src={Person}
+                        alt="subscription users"
+                        width={26}
+                        height={26}
+                    />
+                    <p className="sidebar-bottom__links-text">Eunice Cortez</p>
+                </Link>
+                <Link className="sidebar-bottom__links" to="/channel">
+                    <img
+                        src={Person}
+                        alt="subscription users"
+                        width={26}
+                        height={26}
+                    />
+                    <p className="sidebar-bottom__links-text">Emma Hanson</p>
+                </Link>
+                <Link className="sidebar-bottom__links" to="/channel">
+                    <img
+                        src={Person}
+                        alt="subscription users"
+                        width={26}
+                        height={26}
+                    />
+                    <p className="sidebar-bottom__links-text">Leah Berry</p>
+                </Link>
+            </div>
           </div>
         </div>
     )
