@@ -47,7 +47,7 @@ function App() {
         <div className='App__content'>
            <Switch>
               <Route path="/trending">
-                <Sublime />
+                /trending
               </Route>
               <Route path="/subscriptions">
                 /subscriptions
@@ -74,7 +74,7 @@ function App() {
                 /games
               </Route>
               <Route path="/">
-                <Section />
+                <Sublime />
               </Route>
            </Switch>
         </div>
