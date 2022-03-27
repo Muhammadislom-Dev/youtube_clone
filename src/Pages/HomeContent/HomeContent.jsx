@@ -10,8 +10,8 @@ const HomeContent = () =>{
                 <Sidebar />
             </div>
             <div className="homecontent-right">
-                {/* <Section /> */}
-                <Sublime />
+                <Section />
+                {/* <Sublime /> */}
             </div>
         </div>
     )

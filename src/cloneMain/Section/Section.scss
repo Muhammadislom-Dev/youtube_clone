@@ -13,7 +13,7 @@
     }
 
     &-images{
-        width: 360px;
+        width: 330px;
         height: 200px;
     }
 
@@ -33,7 +33,16 @@
     }
 
     &-box{
-        width: 380px;
+        width: 370px;
+        transition: 0.3s;
+        padding: 15px;
+        margin: 6px;
+        text-align: center;
+
+        &:hover{
+            transform: scale(1.05);
+            box-shadow: 0px 12px 21px rgba(134, 109, 109, 0.2);
+        }
     }
 
     &__pages{

@@ -1,4 +1,7 @@
 import './App.scss';
+import { useEffect } from 'react';
+import Aos from "aos"
+import "aos/dist/aos.css"
 import Sidebar from './Components/Sidebar/Sidebar';
 import {Switch, Route} from 'react-router'
 import Section from './cloneMain/Section/Section';
@@ -7,6 +10,10 @@ import Sublime from './Components/Sublime/Sublime';
 
 
 function App() {
+
+  useEffect(() =>{
+    Aos.init({});
+  }, []);
   // const [videos, setVideos] = useState([]);
   // const [selectedVideos, setSelectedVideos] = useState({ id: {}, snippet: {} });
 
