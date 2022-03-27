@@ -58,7 +58,7 @@ function App() {
               <Route path="/history">
                 /history
               </Route>
-              <Route path="/watch">
+              <Route path="/watchlater">
                 /watch
               </Route>
               <Route path="/favourites">
