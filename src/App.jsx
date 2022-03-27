@@ -74,7 +74,7 @@ function App() {
                 /games
               </Route>
               <Route path="/">
-                <Sublime />
+                <Section />
               </Route>
            </Switch>
         </div>
