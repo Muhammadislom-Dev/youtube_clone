@@ -2,6 +2,7 @@ import './App.scss';
 import Sidebar from './Components/Sidebar/Sidebar';
 import {Switch, Route} from 'react-router'
 import Section from './cloneMain/Section/Section';
+import Sublime from './Components/Sublime/Sublime';
 
 
 
@@ -46,7 +47,7 @@ function App() {
         <div className='App__content'>
            <Switch>
               <Route path="/trending">
-                /trending
+                <Sublime />
               </Route>
               <Route path="/subscriptions">
                 /subscriptions
