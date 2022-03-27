@@ -1,4 +1,4 @@
-const Home = () => {
+const Homes = () => {
     return (
         <svg
             width={20}
@@ -17,4 +17,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Homes;

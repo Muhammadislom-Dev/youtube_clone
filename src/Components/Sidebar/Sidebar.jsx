@@ -7,6 +7,18 @@ import Youtube from '../../assets/img/youtube.png'
 import Home from '../../assets/img/home.png'
 import Person from '../../assets/img/person.png'
 
+//Svgs
+import Video from '../Lib/Svgs/Video';
+import NotificationIcon from '../Lib/Svgs/Notification';
+import Homes from '../Lib/Svgs/home';
+import Favourites from '../Lib/Svgs/Favourites'
+import Library from '../Lib/Svgs/Library'
+import Liked from '../Lib/Svgs/Liked'
+import Subscribing from '../Lib/Svgs/Subscribing'
+import Trending from '../Lib/Svgs/Trending'
+import Clock from '../Lib/Svgs/Clock'
+import Menu from '../Lib/Svgs/Menu'
+
 
 const Sidebar = () =>{
     return(
@@ -23,19 +35,21 @@ const Sidebar = () =>{
               <ul className="sidebar__list">
                   <li className="sidebar__item">
                       <NavLink  to="/" exact className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                          <Homes />
                           <p className="sidebar__names">Home</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="/trending" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Subscribing />
                           <p className="sidebar__names">Trending</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="/subscriptions" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Video />
                           <p className="sidebar__names">Subscriptions</p>
                       </NavLink>
                   </li>
@@ -44,44 +58,51 @@ const Sidebar = () =>{
                   
               <li className="sidebar__item">
                       <NavLink to="/library" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <NotificationIcon />
                           <p className="sidebar__names">Library</p>
                       </NavLink>
                   </li>
 
                   <li className="sidebar__item">
                       <NavLink to="/history" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Favourites />
                           <p className="sidebar__names">History</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="/watch" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Clock />
                           <p className="sidebar__names">Watch Later</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="/favourites" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Trending />
                           <p className="sidebar__names">Favourites</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="/likevideo" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Liked />
                           <p className="sidebar__names">Liked Videos</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="music" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Library />
                           <p className="sidebar__names">Music</p>
                       </NavLink>
                   </li>
                   <li className="sidebar__item">
                       <NavLink to="/games" className='sidebar__list-link'>
-                         <img src={Home} alt="" className="sidebar-imgs" />
+                         {/* <img src={Home} alt="" className="sidebar-imgs" /> */}
+                         <Menu />
                           <p className="sidebar__names">Games</p>
                       </NavLink>
                   </li>
